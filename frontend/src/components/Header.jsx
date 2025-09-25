@@ -21,12 +21,12 @@ const Header = () => {
           <div className="flex items-center space-x-3 group cursor-pointer">
             
               <img 
-                src="/rydoro.png" 
-                alt="Rydoro Logo" 
+                src="/dishdash.png" 
+                alt="DishDash Logo" 
                 className="w-8 h-8 object-contain"
               />
             
-            <span className="text-2xl font-black text-gradient group-hover:scale-105 transition-transform duration-300">Rydoro</span>
+            <span className="text-2xl font-black text-gradient group-hover:scale-105 transition-transform duration-300">DishDash</span>
           </div>
 
           {/* Desktop Navigation */}

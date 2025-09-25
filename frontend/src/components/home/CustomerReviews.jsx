@@ -83,7 +83,7 @@ const CustomerReviews = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Don't just take our word for it. Here's what our satisfied customers 
-            have to say about their experience with Rydoro.
+            have to say about their experience with DishDash.
           </p>
         </div>
 

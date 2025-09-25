@@ -100,10 +100,10 @@ const Hero = () => {
                       loop
                       playsInline
                       preload="metadata"
-                      poster="/rydoro.png"
-                      aria-label="Rydoro demo video"
+                      poster="/dishdash.png"
+                      aria-label="DishDash demo video"
                     >
-                      <source src="/rydoro.mp4" type="video/mp4" />
+                      <source src="/dishdash.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                     <div className="pointer-events-none absolute inset-0 ring-1 ring-black/5"></div>

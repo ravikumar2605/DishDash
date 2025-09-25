@@ -52,7 +52,7 @@ const Contact = () => {
         </svg>
       ),
       title: "Email",
-      details: "hello@rydoro.com",
+      details: "hello@dishdash.com",
       description: "Send us an email"
     },
     {

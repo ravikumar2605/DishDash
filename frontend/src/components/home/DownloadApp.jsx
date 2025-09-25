@@ -51,7 +51,7 @@ const DownloadApp = () => {
                 Download Our <span className="text-gradient">Mobile App</span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Get the full Rydoro experience on your mobile device. Order food, 
+                Get the full DishDash experience on your mobile device. Order food, 
                 track deliveries, and enjoy exclusive app-only features.
               </p>
             </div>
@@ -135,12 +135,12 @@ const DownloadApp = () => {
                   <div className="flex items-center justify-between text-white">
                     <div className="flex items-center space-x-2">
                       <img 
-                        src="/rydoro.png" 
-                        alt="Rydoro Logo" 
+                        src="/dishdash.png" 
+                        alt="DishDash Logo" 
                         className="w-6 h-6 object-contain"
                       />
                       <div>
-                        <h3 className="text-lg font-bold">Rydoro</h3>
+                        <h3 className="text-lg font-bold">DishDash</h3>
                         <p className="text-sm opacity-90">Food Delivery</p>
                       </div>
                     </div>

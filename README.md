@@ -1,4 +1,4 @@
-# Rydoro - Food Delivery Website
+# DishDash - Food Delivery Website
 
 A modern, responsive food delivery website built with React and Tailwind CSS. Features a clean, appetizing design with smooth animations and excellent user experience.
 
@@ -59,7 +59,7 @@ A modern, responsive food delivery website built with React and Tailwind CSS. Fe
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd rydoro/frontend
+cd DishDash/frontend
 ```
 
 2. Install dependencies:
@@ -87,7 +87,7 @@ The built files will be in the `dist` directory.
 ```
 frontend/
 ├── public/
-│   └── rydoro.png          # Logo and favicon
+│   └── dishdash.png          # Logo and favicon
 ├── src/
 │   ├── components/
 │   │   ├── Header.jsx      # Navigation and header
@@ -198,9 +198,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Support
 
 For support and questions:
-- Email: hello@rydoro.com
+Email: hello@dishdash.com
 - Phone: +1 (555) 123-4567
-- Website: https://rydoro.com
+Website: https://dishdash.com
 
 ---
 

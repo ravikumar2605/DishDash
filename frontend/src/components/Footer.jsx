@@ -97,11 +97,11 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <img 
-                src="/rydoro.png" 
-                alt="Rydoro Logo" 
+                src="/dishdash.png" 
+                alt="DishDash Logo" 
                 className="w-10 h-10 object-contain"
               />
-              <span className="text-2xl font-bold">Rydoro</span>
+              <span className="text-2xl font-bold">DishDash</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Your trusted partner for delicious food delivery. We connect you with the best 
@@ -232,7 +232,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2024 Rydoro. All rights reserved. Made with ❤️ for food lovers.
+              © 2024 DishDash. All rights reserved. Made with ❤️ for food lovers.
             </div>
             <div className="flex items-center space-x-6 text-sm text-gray-400">
               <span>🌍 Available in 50+ cities</span>
