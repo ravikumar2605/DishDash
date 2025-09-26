@@ -99,7 +99,7 @@ const Footer = () => {
               <img 
                 src="/dishdash.png" 
                 alt="DishDash Logo" 
-                className="w-10 h-10 object-contain"
+                className="w-12 h-12 object-contain rounded-full"
               />
               <span className="text-2xl font-bold">DishDash</span>
             </div>

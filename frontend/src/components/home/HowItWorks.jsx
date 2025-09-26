@@ -18,9 +18,10 @@ const HowItWorks = () => {
       title: "Place Your Order",
       description: "Add items to your cart, customize your order, and proceed to checkout with secure payment options.",
       icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l2.5 5m6-5v6a2 2 0 01-2 2H9a2 2 0 01-2-2v-6m8 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v4.01" />
-        </svg>
+        <i
+                className="fa-brands fa-opencart fa-2xl"
+                style={{ color: "#ffffff" }}
+              ></i>
       ),
       color: "from-secondary-500 to-secondary-600"
     },

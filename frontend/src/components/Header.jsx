@@ -18,15 +18,13 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <div className="flex items-center space-x-3 group cursor-pointer">
-            
-              <img 
-                src="/dishdash.png" 
-                alt="DishDash Logo" 
-                className="w-8 h-8 object-contain"
-              />
-            
-            <span className="text-2xl font-black text-gradient group-hover:scale-105 transition-transform duration-300">DishDash</span>
+
+          <div className="flex items-center ml-8 cursor-pointer">
+            <img
+              src="/dishdash.png"
+              alt="DishDash Logo"
+              className="w-20 h-16 object-contain" 
+            />
           </div>
 
           {/* Desktop Navigation */}
@@ -67,20 +65,11 @@ const Header = () => {
             </div>
 
             {/* Cart Icon */}
-            <button className="relative p-2 text-gray-700 hover:text-primary-600 transition-colors duration-200" onClick={openCart}>
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l2.5 5m6-5v6a2 2 0 01-2 2H9a2 2 0 01-2-2v-6m8 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v4.01"
-                />
-              </svg>
+            <button
+              className="relative p-2 text-gray-700 hover:text-primary-600 transition-colors duration-200"
+              onClick={openCart}
+            >
+              <i className="fa-brands fa-opencart fa-2xl"></i>
               {itemCount > 0 && (
                 <span className="absolute -top-1 -right-1 bg-primary-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
                   {itemCount}
@@ -93,9 +82,7 @@ const Header = () => {
               <button className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200">
                 Login
               </button>
-              <button className="btn-primary">
-                Sign Up
-              </button>
+              <button className="btn-primary">Sign Up</button>
             </div>
 
             {/* Mobile menu button */}
@@ -147,9 +134,7 @@ const Header = () => {
                 <button className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200 text-left">
                   Login
                 </button>
-                <button className="btn-primary w-full">
-                  Sign Up
-                </button>
+                <button className="btn-primary w-full">Sign Up</button>
               </div>
             </div>
           </div>
